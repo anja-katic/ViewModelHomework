@@ -28,7 +28,7 @@ class TextDisplayFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Poveži UI sa ViewModel-om
+        
         binding.optionTextView.text = "Изабрана опција: ${viewModel.getSelectedOption()}"
 
         // Klik na dugme "Готово"
