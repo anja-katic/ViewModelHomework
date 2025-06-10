@@ -6,5 +6,5 @@ class ResultViewModel(
     val gameName: String,
     val result: String
 ) : ViewModel() {
-    // Po potrebi možete dodati dodatne metode ili logiku
+    //  potrebi se možete dodati dodatna metode
 }
